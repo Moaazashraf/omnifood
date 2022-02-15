@@ -194,7 +194,7 @@
 
 /* **************************************************** */
 /* **************************************************** */
-/* How it works section* */
+/* meals section* */
 .section-meals {
   padding: 9.6rem 0;
 }
@@ -354,7 +354,7 @@
 }
 /* **************************************************** */
 /* **************************************************** */
-/* How it works section* */
+/* pricing section* */
 .section-pricing {
   padding: 9.6rem 0;
 }
@@ -426,4 +426,37 @@
 .pricing-cta {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+.feature-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #e67e22;
+  background-color: #fdf2e9;
+  padding: 1.6rem;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+.feature-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  line-height: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+
+.aside-information {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 600;
+  text-align: center;
+}
+
+.feature {
+  box-shadow: 0 0 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  padding: 3.2rem;
 }
