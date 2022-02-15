@@ -330,7 +330,7 @@
 
 .testimonial-name {
   font-size: 1.6rem;
-  color: #777;
+  color: #6f6f6f;
 }
 
 .gallery {
@@ -351,4 +351,79 @@
 
 .gallery-img:hover {
   transform: scale(1.1);
+}
+/* **************************************************** */
+/* **************************************************** */
+/* How it works section* */
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.pricing-plan {
+  width: 70%;
+  border-radius: 11px;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  padding: 4.6rem;
+  border: 2px solid #fdf2e9;
+}
+.pricing-plan--complete {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "best price";
+  text-transform: uppercase;
+  background-color: rgb(255, 208, 0);
+  color: #333;
+  padding: 0.8rem 8rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 5%;
+  right: -18%;
+  transform: rotate(45deg);
+}
+
+.pricing-name {
+  font-size: 2rem;
+  color: #cf711f;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: 00.75px;
+}
+
+.pricing {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.pricing span {
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.pricing-text {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+  font-weight: 400;
+}
+
+.pricing-cta {
+  text-align: center;
+  margin-top: 4.8rem;
 }
