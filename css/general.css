@@ -33,6 +33,8 @@
 -accents:
 
 -greys:
+#888
+#676767 lightest grey with #fff background
 #555
 #333
 
@@ -101,6 +103,9 @@ body {
 
 .grid-4--col {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid-5--col {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .heading-primary,
