@@ -129,6 +129,10 @@
   .open-nav .mobile-nav-icon[name="menu-outline"] {
     display: none;
   }
+  .mobile-nav-btn {
+    display: block;
+    z-index: 9999;
+  }
 }
 
 /* **************************************************** */
