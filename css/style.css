@@ -39,6 +39,9 @@
 .mobile-nav-icon[name="close-outline"] {
   display: none;
 }
+.mobile-nav-icon[name="menu-outline"] {
+  display: none;
+}
 .main-nav--link:link,
 .main-nav--link:visited {
   text-decoration: none;

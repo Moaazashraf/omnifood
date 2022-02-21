@@ -131,6 +131,105 @@
   }
 }
 
+/* **************************************************** */
+/* **************************************************** */
+/* Width of 850 px */
+@media (max-width: 53em) {
+  .grid-3--col,
+  .grid-4--col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .secondary-heading {
+    margin-bottom: 3.2rem;
+  }
+  .pricing-plan {
+    width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .account-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 4.8rem;
+  }
+  .logo-col,
+  .contacts-col {
+    grid-column: span 3;
+  }
+  .number-step {
+    font-size: 6.2rem;
+  }
+}
+
+/* **************************************************** */
+/* **************************************************** */
+/* Width of 690 px */
+@media (max-width: 43em) {
+  .grid-2--col,
+  .grid-3--col,
+  .grid-4--col {
+    grid-template-columns: 1fr;
+  }
+
+  .section-hero {
+    padding: 3.2rem 0 6.4rem 0;
+  }
+  .meals-delivered {
+    font-size: 1.2rem;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+  .hero-img {
+    width: 80%;
+  }
+  .logos img {
+    height: 1.2rem;
+  }
+  .img-step:nth-child(2) {
+    grid-row: 1;
+  }
+  .img-step:nth-child(6) {
+    grid-row: 5;
+  }
+  .img-step {
+    transform: translateY(3.2rem);
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+  .feature {
+    text-align: center;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-img-box {
+    height: 36rem;
+    grid-row: 1;
+  }
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+  /* .footer-link:link,
+  .footer-link:visited {
+    font-size: 1rem;
+  } */
+}
+
 /* 
 --- 01 TYPOGRAPHY
 - Font size (px): 
